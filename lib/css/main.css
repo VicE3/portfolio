@@ -340,9 +340,9 @@ textarea {
 
 
 
-/*  MEDIA QUERY LESS THAN 630 */
+/*  MEDIA QUERY*/
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 570px) {
 
 
 	header {
@@ -353,13 +353,116 @@ textarea {
 	/* NAV  */
 
 	nav ul li a {
-		font-size: 15px;
-		padding: 7px;	
-		margin-bottom: 3%;
+		font-size: 11px;
+		padding: 1%;
 		font-weight: bold;
 	}
 
 	.navbarUl {
 		text-align: center;
+		margin-left: 8.33%;
+		margin-bottom: 3%;
+		margin-top: 3%;
 	}
+
+	body {
+		border: 20px solid #545454;
+	}
+
+	/* INDEX */
+	 .introContainer {
+		display: block;
+		text-align: center;
+		margin-left: 2%;
+		margin-right: 2%;
+	 }
+
+	 /* CONTACT */
+	 
+	 .contactContent {
+		grid-column-start: 2;
+		grid-column-end: 11;
+	}
+	
+	input {
+		display: block;
+		border: 1px solid darkgrey;
+		margin-top: 3%;
+		margin-bottom: 2%;
+	}
+	
+	.contacth1 {
+		grid-column-start: 2;
+		grid-column-end: 11;
+	}
+	
+	.contactIntro {
+		margin-bottom: 5%;
+	}
+	
+	.contactTextIntro {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	
+	textarea {
+		border: 1px solid darkgrey;
+		display: block;
+	}
+	
+	/* WORKS PAGE */
+
+
+.workh1 {
+	grid-column-start: 2;
+	grid-column-end: 11;
+}
+
+.worksContainer { 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;	
+}
+
+.workContent {
+	grid-column-start: 2;
+	grid-column-end: 11;
+}
+
+.workContentIntro {
+	font-weight: bold;
+	grid-column-start: 2;
+	grid-column-end: 11;
+	line-height: 1.25;
+	font-size: 19px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+/* RESUME */
+
+.resumeContainer {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);	
+}
+
+.resumeContent {
+	grid-column-start: 2;
+	grid-column-end: 11;
+	line-height: 1.5;
+}
+
+.resumeh1 {
+	margin-left: 8.33%;
+	font-size: 21px;
+	line-height: 2;
+	font-weight: bold;
+}
+
+resumeh2 {
+	font-size: 15px;
+}
+.resumeContent p {
+	margin-bottom: 3%;
+}
+
 }

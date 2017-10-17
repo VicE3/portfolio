@@ -14,7 +14,7 @@ include("inc/nav.php");
     Over the course of this 5 month program I learned html, css, javascript, C#, php, and professional development skills; so 
     much more than I ever thought possible. Besides my health and family, Road to Hire has been the greatest blessing
     I've ever recieved. It introduced me to coding which is my passion. 
-    I am very grateful for all the wonderful people at Red Ventures who volunteered their time and energy to help me and my classmates.</p>
+    I am very grateful for all the wonderful people at Red Ventures who volunteered their time and energy to tutor my classmates and I.</p>
 </section>
 </section>
 
