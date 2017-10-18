@@ -8,10 +8,9 @@ include("inc/nav.php");
     <section class="bioContainer">
         <h2 class="bioContenth2">Early Life</h2>
             <p class="bioContent">
-                Victoria was born in New Jersey and moved a lot during her childhood.
-                She graduated from Myers Park High School in Charlotte, North Carolina.
-                After high school she attended Central Piedmont Community College for one year.
-
+                I graduated from Myers Park High School in Charlotte, NC. After high school I attended Central Piedmont Community College.
+                I love working hard to solve challenges and all the knowledge that comes of that process. When I'm not working I enjoy
+                spending time with friends and family, reading, and volunteering. 
             </p>
     </section>
   
